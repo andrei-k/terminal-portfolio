@@ -15,7 +15,10 @@ export const help = async (args: string[]): Promise<string> => {
     }
   }
   return `Here are the available commands:
-\n${c}
+\n<span class="text-light-gray dark:text-dark-gray">${c}</span>
+
+[tab]: trigger completion
+[ctrl+l]/clear: clear terminal
 `;
 };
 
