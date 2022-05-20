@@ -44,9 +44,9 @@ To learn more about me, type 'linkedin' or 'github'`;
 
 export const skills = async (args: string[]): Promise<string> => {
 	return `
-Languages: JavaScript, Go, Java, JSP, PHP, HTML, CSS
-Frameworks: Vue.js, Next.js, Bootstrap, Tailwind
-Platforms: Adobe Experience Manager (AEM), Twixl, Docker, Heroku, WordPress
+Languages: JavaScript, Go, Java, JSP, HTML, CSS
+Frameworks: Vue.js, Next.js, Tailwind, Bootstrap
+Platforms: Adobe Experience Manager (AEM), Twixl, Docker, Heroku
 Design: Figma, XD, Photoshop`;
 };
 
