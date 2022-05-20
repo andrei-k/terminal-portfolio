@@ -48,17 +48,6 @@ export const resume = async (args: string[]): Promise<string> => {
 };
 */
 
-/*
-// Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
-};
-*/
-
 // Contact
 export const email = async (args: string[]): Promise<string> => {
   return `Reach me at: <a href="mailto:${config.email}" target="_blank">${config.email}</a>`;
@@ -110,9 +99,11 @@ directories`;
 };
 */
 
+/*
 export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
+*/
 
 /*
 export const sudo = async (args?: string[]): Promise<string> => {
@@ -123,15 +114,21 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 // Banner
 export const banner = (args?: string[]): string => {
-  return `
-  █████╗ ███╗   ██╗██████╗ ██████╗ ███████╗██╗    ██╗  ██╗   
-  ██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔════╝██║    ██║ ██╔╝   
-  ███████║██╔██╗ ██║██║  ██║██████╔╝█████╗  ██║    █████╔╝    
-  ██╔══██║██║╚██╗██║██║  ██║██╔══██╗██╔══╝  ██║    ██╔═██╗    
-  ██║  ██║██║ ╚████║██████╔╝██║  ██║███████╗██║    ██║  ██╗██╗
-  ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝    ╚═╝  ╚═╝╚═╝
-															  
-																	
+  return `<div id="ascii-banner-full">
+ █████╗ ███╗   ██╗██████╗ ██████╗ ███████╗██╗    ██╗  ██╗   
+██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔════╝██║    ██║ ██╔╝   
+███████║██╔██╗ ██║██║  ██║██████╔╝█████╗  ██║    █████╔╝    
+██╔══██║██║╚██╗██║██║  ██║██╔══██╗██╔══╝  ██║    ██╔═██╗    
+██║  ██║██║ ╚████║██████╔╝██║  ██║███████╗██║    ██║  ██╗██╗
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝    ╚═╝  ╚═╝╚═╝                                               
+</div><div id="ascii-banner-small">
+ █████╗ ███╗   ██╗██████╗ ██████╗ ███████╗██╗
+██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔════╝██║
+███████║██╔██╗ ██║██║  ██║██████╔╝█████╗  ██║
+██╔══██║██║╚██╗██║██║  ██║██╔══██╗██╔══╝  ██║
+██║  ██║██║ ╚████║██████╔╝██║  ██║███████╗██║
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝
+</div>
 
 Welcome! Try 'about' or 'help' to get started.
 `;

@@ -39,3 +39,22 @@ div#__next > div {
 ::-webkit-scrollbar-thumb:hover {
   background: #ff8037;
 }
+
+@media (min-width: 600px) {
+  #ascii-banner-full {
+    display: block;
+  }
+  #ascii-banner-small {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+	#ascii-banner-full {
+	  display: none;
+	}
+	#ascii-banner-small {
+	  display: block;
+	  font-size: 10px;
+	}
+  }
