@@ -1,8 +1,6 @@
 # 💻 Terminal Style Portfolio Website
 
-My [portfolio](https://12ak.com) built with LiveTerm
-
-A modified version of [LiveTerm](https://github.com/Cveinnt/LiveTerm) for my personal website. Please see the creator's repo for more info and to generate a similar website.
+A modified version of [LiveTerm](https://github.com/Cveinnt/LiveTerm) for my personal [website](https://12ak.com). Please see the creator's repo for more info and to generate a similar website.
 
 ## Modifications
 
