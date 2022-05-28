@@ -35,7 +35,9 @@ export const about = async (args: string[]): Promise<string> => {
   return `
 Hi, I am ${config.name}.
 
-I am a web developer and UX designer with over 19 years of professional experience. I currently work at Concordia University in Montreal, specializing in Adobe AEM development.
+I work as the Lead Front-End Developer at Concordia University in Montreal, specializing in AEM development (Adobe Experience Manager).
+
+With over 19 years of professional experience, I have worked in numerous industries, including: Aerospace, Web Agencies and Consultancies, and currently, Higher-Education.
 
 I hold a Bachelor's Degree in Computer Science from Dalhousie University in Halifax and a Graduate Certificate in Business Administration from the John Molson School of Business, Concordia University.
 
@@ -44,15 +46,15 @@ To learn more about me, type 'linkedin' or 'github'`;
 
 export const skills = async (args: string[]): Promise<string> => {
 	return `
-Languages: JavaScript, Go, Java, JSP, HTML, CSS
-Frameworks: Vue.js, Next.js, Tailwind, Bootstrap
+Languages: JavaScript, Go, Java, JSP, HTML, CSS, PHP
+Frameworks: Vue.js, Bootstrap, Next.js, Tailwind
 Platforms: Adobe Experience Manager (AEM), Twixl, Docker, Heroku
 Design: Figma, XD, Photoshop`;
 };
 
 export const status = async (args: string[]): Promise<string> => {
 	return `
-Working at Concordia University, Montreal, Canada
+Working full-time at Concordia University, Montreal, Canada
 Married and a father of two young children`;
 };
 
