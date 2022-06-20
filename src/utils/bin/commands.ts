@@ -37,7 +37,7 @@ Hi, I am ${config.name}.
 
 I work as the Lead Front-End Developer at Concordia University in Montreal, specializing in AEM development (Adobe Experience Manager).
 
-With over 19 years of professional experience, I have worked in numerous industries, including: Aerospace, Web Agencies and Consultancies, and currently, Higher-Education.
+With over 20 years of professional experience, I have worked in numerous industries, including: Aerospace, Web Agencies and Consultancies, and currently, in Higher-Education.
 
 I hold a Bachelor's Degree in Computer Science from Dalhousie University in Halifax and a Graduate Certificate in Business Administration from the John Molson School of Business, Concordia University.
 
@@ -46,10 +46,8 @@ To learn more about me, type 'linkedin' or 'github'`;
 
 export const skills = async (args: string[]): Promise<string> => {
 	return `
-Languages: JavaScript, Go, Java, JSP, HTML, CSS, PHP
-Frameworks: Vue.js, Bootstrap, Next.js, Tailwind
-Platforms: Adobe Experience Manager (AEM), Twixl, Docker, Heroku
-Design: Figma, XD, Photoshop`;
+JavaScript, Go, Java, JSP, HTML, CSS, PHP
+Adobe Experience Manager (AEM), Vue.js, Twixl, Docker, Heroku`;
 };
 
 export const status = async (args: string[]): Promise<string> => {
