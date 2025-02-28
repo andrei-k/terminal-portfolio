@@ -8,8 +8,17 @@ I removed certain commands that aren't relevant to me, such as `donate`, `quote`
 
 ## Usage
 
+If Yarn is not installed:
 ```bash
-yarn install && yarn dev
+sudo npm install --global yarn
+```
+
+```bash
+yarn install
+```
+
+```bash
+yarn dev
 ```
 
 ## Deployed on Vercel
