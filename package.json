@@ -7,9 +7,6 @@
     "url": "https://cveinnt.com",
     "email": "contact@wensenwu.com"
   },
-  "engines": {
-    "node": "22.x"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
