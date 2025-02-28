@@ -35,7 +35,7 @@ export const about = async (args: string[]): Promise<string> => {
   return `
 Hi, I am ${config.name}.
 
-I work as the Lead Front-End Developer at Concordia University in Montreal, specializing in AEM development (Adobe Experience Manager).
+I work as the Manager of Web Evolution and Front-End Development at Concordia University in Montreal, specializing in AEM (Adobe Experience Manager) development, advancing teams, and accelerating AI adoption.
 
 With over 20 years of professional experience, I have worked in numerous industries, including: Aerospace, Web Agencies and Consultancies, and currently, in Higher-Education.
 
