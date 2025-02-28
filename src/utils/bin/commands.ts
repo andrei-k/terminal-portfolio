@@ -64,9 +64,11 @@ export const resume = async (args: string[]): Promise<string> => {
 */
 
 // Contact
+/*
 export const email = async (args: string[]): Promise<string> => {
   return `Reach me at: <a href="mailto:${config.email}" target="_blank">${config.email}</a>`;
 };
+*/
 
 export const github = async (args: string[]): Promise<string> => {
   window.open(`https://github.com/${config.social.github}/`);
